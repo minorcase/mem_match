@@ -38,8 +38,14 @@ header{
 .header-nav li{
     margin-top: 33%;
 }
+header p {
+    position: relative;
+    top: 20%;
+    color: white;
+}
 .title{
     position: absolute;
+    top: -20%;
     display: inline-block;
     left: 50%;
     transform: translateX(-50%);
