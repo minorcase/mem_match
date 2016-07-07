@@ -1,0 +1,28 @@
+@media screen and (min-width: 640px){
+    .game-area{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .combat_window{
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        float: none;
+        top: 0;
+    }
+    .game-area .card{
+        width: 10%;
+        height: 5%;
+        margin-left: 5%;
+    }
+    .header{
+        height: auto;
+    }
+    /*.stats{*/
+        /*position: fixed;*/
+        /*top: 0;*/
+        /*right: 0;*/
+        /*height: auto;*/
+    /*}*/
+}

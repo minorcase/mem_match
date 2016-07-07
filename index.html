@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Match</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="mine.js"></script>
+    <script src="testing.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <!--<link rel="stylesheet" href="mobile.css">-->
+</head>
+<body>
+<div class="container">
+
+<header>
+    <h3 class="title">Trials of Shane</h3>
+</header>
+    <div class="combat_window">
+        <div class = 'enemy_stats'>
+            <p>Boss HP:</p> <div id="boss_hp_value">0</div>
+        </div>
+        <div class = 'enemy_display'>
+            <img id="current_boss" src="images/shane.jpg">
+        </div>
+        <div class = 'player_stats'>
+            <div class="player_stats_top">
+                <p>Attack: </p>
+                <p>Defense: </p>
+                <p>HP: </p>
+                <p>Healing: </p>
+            </div>
+            <div class="player_stats_bottom">
+                <div id="attack_value">0</div>
+                <div id="defense_value">0</div>
+                <div id="hp_value">0</div>
+                <div id="heal_value">0</div>
+            </div>
+        </div>
+        <div class="combat_text">Ifrit</div>
+    </div>
+<div class="game-area" id="game-area">
+
+
+</div>
+    <div class="stats" id="stats">
+        <div class="games_played" id="games_played">
+            <h3 class="label">Games Played</h3>
+            <div class="value">1</div>
+        </div>
+
+        <div class="attempts">
+            <h3 class="label">Attempts</h3>
+            <div class="value"></div>
+        </div>
+        <div class="accuracy">
+            <h3 class="label"></h3>
+            <div class="value"></div>
+        </div>
+        <button class="reset" onclick="newGame()">Reset Game</button>
+    </div>
+</div>
+
+</body>
+</html>

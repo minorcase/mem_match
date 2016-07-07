@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="testing.js"></script>
+</head>
+<body>
+<button id="reset_combat" onclick="resetCombat()">Reset Combat</button>
+<button id="player_ATK" onclick="playerAttack()">Player attack</button>
+<button id="player_HEAL" onclick="playerHeal()">PLayer Heal</button>
+<button id="player_DEF" onclick="playerDefenseUp(5)">Player Defense up</button>
+<button id="boss_ATK" onclick="bossAttack()">Boss attack</button>
+<div id="turns"></div>
+<div class="container2">
+    <div class="combat_window">
+        <div class = 'enemy_stats'>
+            <p>Boss HP:</p> <div id="boss_hp_value">0</div>
+        </div>
+        <div class = 'enemy_display'>
+
+        </div>
+        <div class = 'player_stats'>
+            <div class="player_stats_top">
+                <p>Attack: </p>
+                <p>Defense: </p>
+                <p>HP: </p>
+                <p>Healing: </p>
+            </div>
+            <div class="player_stats_bottom">
+                <div id="attack_value">0</div>
+                <div id="defense_value">0</div>
+                <div id="hp_value">0</div>
+                <div id="heal_value">0</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
