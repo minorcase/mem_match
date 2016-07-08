@@ -149,10 +149,10 @@ var all_bosses = [
         bossBackground: 'images/fenrir-bg.jpg'
     }];
 function add_images(array){ //loads information about cards into an array for later use
-    array.push({source:'images/DRK.png', type: 'attack', icon:'images/ATK_icon.png'});
-    array.push({source:'images/DRK.png', type: 'attack', icon:'images/ATK_icon.png'});
-    array.push({source:'images/DRK.png', type: 'attack', icon:'images/ATK_icon.png'});
-    array.push({source:'images/DRK.png', type: 'attack', icon:'images/ATK_icon.png'});
+    array.push({source:'images/drk.png', type: 'attack', icon:'images/ATK_icon.png'});
+    array.push({source:'images/drk.png', type: 'attack', icon:'images/ATK_icon.png'});
+    array.push({source:'images/drk.png', type: 'attack', icon:'images/ATK_icon.png'});
+    array.push({source:'images/drk.png', type: 'attack', icon:'images/ATK_icon.png'});
     array.push({source:'images/monk.png', type: 'attack', icon:'images/ATK_icon.png'});
     array.push({source:'images/monk.png', type: 'attack', icon:'images/ATK_icon.png'});
     array.push({source:'images/monk.png', type: 'attack', icon:'images/ATK_icon.png'});
